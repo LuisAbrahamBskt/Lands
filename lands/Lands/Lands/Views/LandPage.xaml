@@ -5,8 +5,10 @@
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
              Title="Land">
     <ContentPage.Content>
-        <StackLayout>
-            
-        </StackLayout>
+        <ScrollView
+            BindingContext="{Binding Land}">
+            <StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
